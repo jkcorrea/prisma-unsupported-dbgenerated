@@ -1,9 +1,9 @@
 {
   "name": "prisma-dbgenerated-bug",
   "dependencies": {
-    "@prisma/client": "4.0.0"
+    "@prisma/client": "4.2.1"
   },
   "devDependencies": {
-    "prisma": "4.0.0"
+    "prisma": "4.2.1"
   }
 }
