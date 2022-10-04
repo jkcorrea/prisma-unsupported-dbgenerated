@@ -4,10 +4,10 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url = env("DATABASE_URL")
+  url      = env("DATABASE_URL")
 }
 
 model table {
-    id String @id
-    hereBeDragons String @default(dbgenerated())
+  id            String                   @id
+  hereBeDragons Unsupported("tsvector")? @default(dbgenerated())
 }
